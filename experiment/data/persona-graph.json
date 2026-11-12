@@ -1,0 +1,53 @@
+{
+  "anchors": {
+    "S1": "jensen-stripe-sessions-2024-01",
+    "S2": "jensen-stripe-sessions-2024-02",
+    "S3": "jensen-stripe-sessions-2024-03",
+    "L1": "jensen-lex-494-02",
+    "L2": "jensen-lex-494-04",
+    "A1": "jensen-acquired-2023-01",
+    "A2": "jensen-acquired-2023-04"
+  },
+  "nodes": {
+    "chores": "cleaning bathrooms at boarding school",
+    "restaurant": "washing dishes and later waiting tables",
+    "work": "taking pride in an assigned job",
+    "effort": "doing even ordinary work as well as one can",
+    "span": "the CEO's unusually wide reporting span",
+    "senior": "experienced executives needing less supervision",
+    "role": "matching oversight to the people doing the work",
+    "routine": "routine operating meetings",
+    "team": "people already responsible for the work",
+    "ceo": "the CEO's attention",
+    "stuck": "a problem that others cannot solve or no one owns",
+    "curiosity": "curiosity about a possible future",
+    "reasons": "reasoning through why that future should materialize",
+    "conviction": "conviction about a hard decision",
+    "endurance": "persisting through the difficulty before an outcome",
+    "instructions": "the detail in an instruction",
+    "recipient": "the task and the person carrying it out",
+    "direction": "enough direction to act and room for others to improve the plan",
+    "emulation": "emulating a chip and testing its software before manufacture",
+    "risk": "reducing uncertainty before committing the company",
+    "bet": "describing the commitment as a blind bet",
+    "founding": "the unexpected difficulty of building NVIDIA",
+    "restart": "reluctance to start again with hindsight"
+  },
+  "edges": [
+    ["S1","chores","illustrated","work"],
+    ["S1","restaurant","illustrated","work"],
+    ["S1","work","meant","effort"],
+    ["S2","span","was possible with","senior"],
+    ["S2","senior","illustrated","role"],
+    ["S3","routine","were left to","team"],
+    ["S3","ceo","was reserved for","stuck"],
+    ["L1","curiosity","prompted","reasons"],
+    ["L1","reasons","helped build","conviction"],
+    ["L1","conviction","helped sustain","endurance"],
+    ["L2","instructions","depended on","recipient"],
+    ["L2","instructions","aimed to give","direction"],
+    ["A1","emulation","was a way of","risk"],
+    ["A1","risk","qualified","bet"],
+    ["A2","founding","explained","restart"]
+  ]
+}
