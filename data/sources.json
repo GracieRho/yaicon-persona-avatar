@@ -1,0 +1,48 @@
+[
+  {
+    "id": "acquired-2023",
+    "source_event_id": "acquired-2023",
+    "title": "NVIDIA CEO Jensen Huang",
+    "url": "https://www.acquired.fm/episodes/jensen-huang#transcript",
+    "publisher": "Acquired",
+    "published_at": "2023-10-16",
+    "source_type": "publisher_interview_transcript",
+    "split": "train",
+    "timeline": "publisher_transcript"
+  },
+  {
+    "id": "lex-494",
+    "source_event_id": "lex-494",
+    "title": "Jensen Huang, Lex Fridman Podcast #494",
+    "url": "https://lexfridman.com/jensen-huang-transcript/",
+    "publisher": "Lex Fridman Podcast",
+    "published_at": "2026-03-23",
+    "source_type": "publisher_interview_transcript",
+    "split": "train",
+    "timeline": "publisher_transcript"
+  },
+  {
+    "id": "caltech-commencement-2024",
+    "source_event_id": "caltech-commencement-2024",
+    "title": "NVIDIA CEO delivers Caltech commencement address",
+    "url": "https://blogs.nvidia.com/blog/jensen-huang-caltech-commencement-address/",
+    "publisher": "NVIDIA",
+    "published_at": "2024-06-15",
+    "recorded_at": "2024-06-14",
+    "source_type": "event_report",
+    "split": "train",
+    "timeline": "article_sections"
+  },
+  {
+    "id": "nvidia-gtc-san-jose-2025",
+    "source_event_id": "nvidia-gtc-2025",
+    "title": "GTC 2025 announcements and live updates",
+    "url": "https://blogs.nvidia.com/blog/nvidia-keynote-at-gtc-2025-ai-news-live-updates/",
+    "publisher": "NVIDIA",
+    "published_at": "2025-03-25",
+    "recorded_at": "2025-03-18",
+    "source_type": "event_report",
+    "split": "train",
+    "timeline": "article_sections"
+  }
+]
