@@ -1,0 +1,79 @@
+{
+  "C1": {
+    "terms": ["교토", "이끼", "정원사", "장인", "정성", "장인정신"],
+    "seeds": ["gardener"],
+    "spoken_ko": "교토에서 이끼 정원을 돌보던 정원사의 일화를 들며, 자기 일에 정성을 기울이는 태도를 이야기했습니다.",
+    "principle_ko": "시간을 들여 자기 일의 완성도를 높인다는 관점",
+    "application_ko": "이번에 맡은 일에서 매번 조금씩 더 잘할 수 있는 부분을 하나 정해 보세요."
+  },
+  "H1": {
+    "terms": ["공감", "연민", "관대", "동료가힘들", "인간다움", "인간성", "품성", "사람만의강점", "사람에게남"],
+    "seeds": ["commodity"],
+    "spoken_ko": "지능이 널리 보급되는 시대에도 연민과 관대함을 인간이 지닌 뛰어난 능력으로 꼽았습니다.",
+    "principle_ko": "지식과 지능 이외에 타인을 대하는 태도에서도 인간의 강점을 찾는 관점",
+    "application_ko": "상대에게 필요한 도움이 무엇인지 먼저 물어보고, 지금 나눌 수 있는 시간이나 지식을 한 가지 골라 보세요."
+  },
+  "S1": {
+    "url": "https://stripe.com/gb/sessions/2024/a-conversation-with-nvidias-jensen-huang",
+    "locator": "Stripe Sessions 2024, upbringing and early jobs, 09:55–10:37",
+    "terms": ["식당", "설거지", "데니스", "허드렛일", "잡일", "단순작업", "단순반복", "보조업무", "데이터정리", "자료정리", "라벨링", "눈에띄지", "티가안", "하찮", "작은역할", "작은일", "사소한일", "맡은일", "알바"],
+    "seeds": ["restaurant"],
+    "source_ko": "학교에서 청소하고 식당에서 설거지와 서빙을 했던 경험을 돌아보며, 각 일을 잘 해내고 싶었다고 설명했습니다.",
+    "principle_ko": "일의 규모나 겉으로 드러나는 정도와 관계없이 맡은 일의 완성도를 높인다는 관점",
+    "application_ko": "다음 사람이 믿고 넘겨받을 수 있으려면 어떤 기준을 만족해야 할지 먼저 정해 보세요."
+  },
+  "S2": {
+    "url": "https://stripe.com/gb/sessions/2024/a-conversation-with-nvidias-jensen-huang",
+    "locator": "Stripe Sessions 2024, supervision at different levels, 13:34–13:46",
+    "terms": ["직속", "보고자", "조직구조", "60명", "육십명", "감독", "신임팀장", "신임관리자", "관리범위"],
+    "seeds": ["span"],
+    "source_ko": "CEO의 직속 보고자가 많았지만, 경영진과 실무자가 필요로 하는 지도가 달라 같은 구조를 아래 직급에 그대로 적용하기 어렵다고 했습니다.",
+    "principle_ko": "인원수를 먼저 정하기보다 구성원에게 필요한 지원의 정도를 살핀다는 관점",
+    "application_ko": "각자 어디까지 독립적으로 결정할 수 있는지 확인하고, 도움이 필요한 일부터 함께 점검해 보세요."
+  },
+  "S3": {
+    "url": "https://stripe.com/gb/sessions/2024/a-conversation-with-nvidias-jensen-huang",
+    "locator": "Stripe Sessions 2024, exchange on regular operational meetings",
+    "terms": ["정례회의", "회의", "우선순위", "병목", "주인없는", "아무도맡지", "아무도안맡", "시간배분", "일정관리"],
+    "seeds": ["ceo", "routine"],
+    "source_ko": "일상적인 운영 회의는 담당자에게 맡기고 다른 사람이 풀기 어렵거나 맡는 사람이 없는 일에 시간을 쓴다고 했습니다.",
+    "principle_ko": "책임자가 직접 나설 때 달라질 문제에 시간을 쓴다는 관점",
+    "application_ko": "다음 회의 하나를 골라, 내가 참석해야만 내려질 결정이 무엇인지 먼저 적어 보세요."
+  },
+  "L1": {
+    "url": "https://lexfridman.com/jensen-huang-transcript/",
+    "locator": "Lex Fridman #494, 00:16:45–00:17:59",
+    "terms": ["호기심", "확신", "끈기", "막막", "포기", "버틸", "버티", "어려운결정", "불확실한진로", "실패가두려"],
+    "seeds": ["curiosity"],
+    "source_ko": "호기심에서 출발해 어떤 미래가 왜 실현될지 따져 보고, 그 설명이 어려운 시기를 견디는 확신으로 이어진다고 말했습니다.",
+    "principle_ko": "막연한 낙관보다 납득할 수 있는 이유에서 확신을 얻는다는 관점",
+    "application_ko": "내가 기대하는 결과와 그 결과가 가능하다고 믿는 이유를 한 줄씩 써 보세요."
+  },
+  "L2": {
+    "url": "https://lexfridman.com/jensen-huang-transcript/",
+    "locator": "Lex Fridman #494, 02:03:43–02:04:36",
+    "terms": ["지시", "명세", "자율", "역할분담", "역할배분", "위임", "세세하게", "세부사항", "세부사항까지"],
+    "seeds": ["instructions"],
+    "source_ko": "과제와 담당자에 따라 지시의 구체성을 조절한다고 설명했습니다. 실행할 방향을 제시하면서 더 나은 방법을 찾을 여지를 남긴다는 뜻입니다.",
+    "principle_ko": "목표를 실행할 만큼 구체화하면서 방법을 개선할 여지는 남긴다는 관점",
+    "application_ko": "기대하는 결과와 완료 기준은 합의하고, 방법 한 가지는 담당자가 직접 고르게 해 보세요."
+  },
+  "A1": {
+    "url": "https://www.acquired.fm/episodes/jensen-huang#transcript",
+    "locator": "Acquired (2023), RIVA 128 and the follow-up on betting the company",
+    "terms": ["검증", "테스트", "전재산", "올인", "베팅", "도박", "위험", "리스크", "시제품", "에뮬레", "망하면", "불확실성", "리허설"],
+    "seeds": ["emulation"],
+    "source_ko": "칩을 제조하기 전에 에뮬레이터에서 소프트웨어를 돌려 확인했던 경험을 들며, 그 결정을 맹목적인 베팅으로 설명하는 데 반대했습니다.",
+    "principle_ko": "되돌리기 어려운 결정에 앞서 미리 시험할 수 있는 위험을 줄인다는 관점",
+    "application_ko": "실패하면 가장 곤란한 가정 하나를 골라, 작은 비용으로 미리 시험할 방법을 찾아보세요."
+  },
+  "A2": {
+    "url": "https://www.acquired.fm/episodes/jensen-huang#transcript",
+    "locator": "Acquired (2023), closing question about starting over at age thirty",
+    "terms": ["다시창업", "재창업", "다시회사를", "창업을다시", "다시시작", "창업의어려움"],
+    "seeds": ["founding"],
+    "source_ko": "창업할 때는 회사를 키우는 일이 얼마나 어려울지 몰랐고, 미리 알았다면 다시 시작하기를 망설였을 것이라고 회고했습니다.",
+    "principle_ko": "성공 후의 회고에도 당시에는 알 수 없었던 비용과 어려움을 포함한다는 관점",
+    "application_ko": "시작하기 전에 기대하는 성과와 감당해야 할 어려움을 각각 한 가지씩 구체적으로 적어 보세요."
+  }
+}

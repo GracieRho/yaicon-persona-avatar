@@ -1,0 +1,15 @@
+{
+  "anchors": {"C1": "CAL-01", "H1": "LEX-01"},
+  "nodes": {
+    "gardener": "watching a gardener tend a moss garden in Kyoto",
+    "dedication": "giving one's craft sustained care",
+    "commodity": "the possibility that intelligence will become widely available",
+    "humanity": "valuing character and humanity",
+    "compassion": "compassion and generosity as human strengths"
+  },
+  "edges": [
+    ["C1", "gardener", "illustrated", "dedication"],
+    ["H1", "commodity", "provided context for", "humanity"],
+    ["H1", "humanity", "included", "compassion"]
+  ]
+}

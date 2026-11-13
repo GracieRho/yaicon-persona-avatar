@@ -1,0 +1,42 @@
+{
+  "work": [
+    "flat",
+    "graph"
+  ],
+  "risk": [
+    "graph",
+    "flat"
+  ],
+  "leading": [
+    "graph",
+    "flat"
+  ],
+  "ownership": [
+    "flat",
+    "graph"
+  ],
+  "trust": [
+    "flat",
+    "graph"
+  ],
+  "conviction": [
+    "flat",
+    "graph"
+  ],
+  "character": [
+    "flat",
+    "graph"
+  ],
+  "mix": [
+    "graph",
+    "flat"
+  ],
+  "missing_mix": [
+    "graph",
+    "flat"
+  ],
+  "followup": [
+    "flat",
+    "graph"
+  ]
+}
