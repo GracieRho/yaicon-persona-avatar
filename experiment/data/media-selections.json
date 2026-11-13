@@ -1,0 +1,15 @@
+{
+  "event": "stripe-sessions-2024",
+  "publisher": "https://stripe.com/gb/sessions/2024/a-conversation-with-nvidias-jensen-huang",
+  "video_url": "https://videos.stripeassets.com/fzn2n1nzq965/5OJ9Vx62so0tWBvEAEDA9L/62fc5a05cb70e2076ca15cc94166f96a/s24_KEY03_FINAL_WEB3.mp4",
+  "vtt_url": "https://assets.stripeassets.com/fzn2n1nzq965/3vKfhcFCq4aTcaYcYJr6hO/fc2157110b898f7658ba4d836448436f/key03_FINAL.vtt",
+  "video_sha256": "0882539adca1bca58a8e64c4341a6fdca4ebca69a88c77799c882fb1dd0bfa32",
+  "vtt_sha256": "2af1234bc494fdaf8256470bced231193d277c886c573cba97f4f00281880172",
+  "speaker_basis": "Jensen Huang per the publisher's speaker-labelled transcript; caption windows explicitly selected within his answers",
+  "selections": [
+    {"turn_id":"stripe24-chores","tag":"S1","start_ms":595091,"end_ms":597694},
+    {"turn_id":"stripe24-restaurant","tag":"S1","start_ms":616980,"end_ms":621451},
+    {"turn_id":"stripe24-effort","tag":"S1","start_ms":632095,"end_ms":636766},
+    {"turn_id":"stripe24-supervision","tag":"S2","start_ms":814677,"end_ms":825121}
+  ]
+}

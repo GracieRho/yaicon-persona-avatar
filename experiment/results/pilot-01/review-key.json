@@ -1,0 +1,42 @@
+{
+  "work": [
+    "flat",
+    "graph"
+  ],
+  "reports": [
+    "graph",
+    "flat"
+  ],
+  "meetings": [
+    "graph",
+    "flat"
+  ],
+  "conviction": [
+    "flat",
+    "graph"
+  ],
+  "directions": [
+    "flat",
+    "graph"
+  ],
+  "risk": [
+    "flat",
+    "graph"
+  ],
+  "restart": [
+    "flat",
+    "graph"
+  ],
+  "resilience": [
+    "graph",
+    "flat"
+  ],
+  "lawyer": [
+    "graph",
+    "flat"
+  ],
+  "private": [
+    "flat",
+    "graph"
+  ]
+}

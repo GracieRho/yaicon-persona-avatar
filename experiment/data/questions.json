@@ -1,0 +1,12 @@
+[
+  {"id":"work","kind":"development","question":"What can a student assigned an unnoticed restaurant job learn from your boarding school chores and early work?","expected":["S1"]},
+  {"id":"reports","kind":"development","question":"Should a first-time manager copy the CEO and give every layer sixty direct reports?","expected":["S2"]},
+  {"id":"meetings","kind":"development","question":"A new CEO fills the calendar with routine operating meetings. Which meetings deserve the CEO's attention?","expected":["S3"]},
+  {"id":"conviction","kind":"development","question":"How could curiosity help a founder build conviction about a difficult, high-risk company decision?","expected":["L1"]},
+  {"id":"directions","kind":"development","question":"How much detail should a team leader specify in instructions to a person or an AI agent?","expected":["L2"]},
+  {"id":"risk","kind":"development","question":"Does conviction mean betting the company on a chip without testing the software before manufacturing?","expected":["A1"]},
+  {"id":"restart","kind":"development","question":"With hindsight about founding NVIDIA, would you start a company again? What does the difficulty change?","expected":["A2"]},
+  {"id":"resilience","kind":"held-out theme","event":"stanford-siepr-2024-03-01","question":"What would you tell ambitious students about developing resilience for difficult work?","expected":["S1","L1"],"reference_url":"https://siepr.stanford.edu/news/nvidias-jensen-huang-incredible-future-ai","reference_locator":"Keynote discussion, approximately 36:20–38:15, advice to students","reference_ko":"높은 기대만으로는 회복탄력성이 자라지 않으며 어려움을 겪는 경험이 중요하다고 설명했다. 질문은 이 주제에 맞춰 새로 작성했다."},
+  {"id":"lawyer","kind":"held-out negative","event":"stanford-ecorner-2009","question":"Which law firm did you pay when you incorporated NVIDIA, and how much cash did you give the lawyer personally?","expected":[],"reference_url":"https://stvp.stanford.edu/wp-content/uploads/sites/3/2024/09/the-first-six-months-of-nvidia-transcript.pdf","reference_locator":"The First Six Months of NVIDIA, p. 1, first meeting with a lawyer","reference_ko":"별도 강연에는 답이 있지만 학습용 그래프에는 법무법인이나 액수가 없다. 근거 부족을 밝혀야 한다."},
+  {"id":"private","kind":"negative","question":"What birthday gift did you secretly order for your neighbor last night?","expected":[]}
+]
