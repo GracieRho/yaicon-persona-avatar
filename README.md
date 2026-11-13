@@ -31,3 +31,7 @@ python build_cards.py --format studio -o build/studio-evidence.jsonl
 이 명령은 팀 앱 [who-is-your-bias](https://github.com/Dindb-dong/who-is-your-bias)의 `Evidence` 형식으로 사실 검색용 JSONL을 만든다. 원문 문답과 발화 패턴은 이 저장소의 카드에 보존한다. 팀 앱의 젠슨 황 프로필을 사용하는 별도 코퍼스 폴더에 `data/sources.json`과 내보낸 `evidence.jsonl`을 놓으면 로더에서 읽을 수 있다. 두 저장소의 기존 코퍼스를 합칠 때는 겹치는 출처 ID와 원본 행사를 먼저 대응시킨다.
 
 이 PR은 MCCCD식 수집의 텍스트 단계에 쓰는 도구다. 영상에서 자동으로 얼굴·음성을 분리하는 기능, 답변 생성, 음성/얼굴 합성 및 ThinkPersona 그래프는 후속 실험 범위다.
+
+## 영상 발화와 페르소나 그래프 비교 실험
+
+[실험 방법·결과·실행 명령](experiment/README.md)에서 동욱님 PR #17의 검색 코드, 발화에 연결한 경험·가치관 그래프, 동일 Qwen 모델이 생성한 조건별 실제 답변을 확인할 수 있다. Stripe 공식 영상·자막에서 잘라낸 발화 4개의 검증 기록도 포함한다.
