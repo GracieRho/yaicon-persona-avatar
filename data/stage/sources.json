@@ -1,0 +1,86 @@
+{
+  "P-graph": {
+    "kind": "project",
+    "url": "https://github.com/GracieRho/yaicon-persona-avatar/blob/f21bc4ef08c55151e94f6f301d1072bac9338436/experiment/README.md",
+    "locator": "구성 · 그래프 및 생성",
+    "terms": ["페르소나그래프", "퍼소나그래프", "페르소나를구현", "페르소나구현", "가치관구현", "가치관을구현", "성격구현", "성격을구현", "경험연결", "그래프구성", "그래프도입", "ThinkPersona적용", "그래프왜", "그래프를왜", "그래프를쓴", "그래프를사용", "그래프를도입"],
+    "text": "공개 발언 7개에서 경험과 판단 기준을 노드 23개와 방향 관계 15개로 연결했습니다. 같은 Qwen 모델에 같은 사실을 문장 목록과 그래프로 각각 주어 답변을 비교했습니다."
+  },
+  "P-training": {
+    "kind": "project",
+    "url": "https://github.com/GracieRho/yaicon-persona-avatar/blob/f21bc4ef08c55151e94f6f301d1072bac9338436/experiment/README.md",
+    "locator": "구성 · 생성 및 자료와 방법의 출처 · ThinkPersona",
+    "terms": ["그래프학습", "그래프를학습", "페르소나파인튜닝", "가중치학습", "파인튜닝했", "파인튜닝을했", "lora를썼", "lora썼", "lora를사용했", "로라를썼"],
+    "text": "이 페르소나 그래프 실험에서는 Qwen의 가중치를 고정하고 질문에 맞는 근거를 입력에 넣었습니다. 그래프로 QRA를 만들어 LoRA로 학습하는 단계는 수행하지 않았습니다."
+  },
+  "P-eval": {
+    "kind": "project",
+    "url": "https://github.com/GracieRho/yaicon-persona-avatar/blob/f21bc4ef08c55151e94f6f301d1072bac9338436/experiment/results/matched-tags/metrics.json",
+    "locator": "metrics.flat · metrics.graph · human_fidelity_ratings",
+    "terms": ["평가", "성능", "정확도", "효과", "비교결과", "실험결과", "성격이더", "인용률", "몇배", "좋아졌", "좋아진", "좋아지", "개선됐", "더비슷", "얼마나비슷", "평문", "베이스라인"],
+    "text": "영어 파일럿에서 기대 출처가 있는 8문항 중 평문은 4개, 그래프는 7개 답변에 해당 출처를 표시했습니다. 가치관이 더 충실하게 표현됐는지에 대한 사람 평가는 아직 없습니다."
+  },
+  "P-gaze": {
+    "kind": "project",
+    "url": "https://github.com/Dindb-dong/who-is-your-bias/blob/8515b5f30f3cd412e18db3d54ee28bf2a4c28694/docs/jensen-attention.md",
+    "locator": "Try it · How the motion behaves",
+    "terms": ["시선", "아이컨택", "아이콘택", "눈동자", "고개", "웹캠", "카메라추적", "참가자추적", "성별인식", "여자만", "여성만", "gaze"],
+    "text": "발표자가 카메라나 공유 화면에서 추적할 얼굴을 선택하면 아바타의 눈이 먼저 움직이고 고개가 약 220밀리초 뒤에 따라갑니다. 성별을 판별하거나 젠슨 황의 시선 습관을 학습하는 기능은 아닙니다."
+  },
+  "P-clip": {
+    "kind": "project",
+    "url": "https://github.com/Dindb-dong/who-is-your-bias/blob/8515b5f30f3cd412e18db3d54ee28bf2a4c28694/docs/presentation.md",
+    "locator": "Completed pilot · What is implemented",
+    "terms": ["립싱크", "입모양", "발표영상", "발표클립", "영상합성", "목소리", "음성합성", "뮤즈톡", "musetalk", "tts"],
+    "text": "팀의 사전 제작 예시에서는 Qwen3-TTS로 대본을 읽고 MuseTalk로 입 모양을 합성했습니다. 측정한 영상은 12.24초짜리 도입 예시이며, 실시간 질의응답 영상의 성능을 측정한 결과는 없습니다."
+  },
+  "P-retrieval": {
+    "kind": "project",
+    "url": "https://github.com/Dindb-dong/who-is-your-bias/blob/8515b5f30f3cd412e18db3d54ee28bf2a4c28694/data/personas/jensen-huang/README.md",
+    "locator": "Jensen Huang retrieval corpus · Primary sources",
+    "terms": ["자료수집", "학습데이터", "데이터수집", "몇건", "자료몇", "인터뷰몇", "코퍼스", "근거자료", "검색자료", "rag", "어디서수집", "출처는어디"],
+    "text": "팀 앱의 젠슨 황 검색 자료에는 출처 9개에서 정리한 근거 32건이 있습니다. NVIDIA 자료 요약 8건과 공개 인터뷰 6개 행사에서 추린 문답 요약 24건입니다."
+  },
+  "P-latency": {
+    "kind": "project",
+    "url": "https://github.com/Dindb-dong/who-is-your-bias/blob/8515b5f30f3cd412e18db3d54ee28bf2a4c28694/reports/jensen-rag/README.md",
+    "locator": "Smaller local models · Korean hybrid Qwen3 4B Q8_0, M4 Pro",
+    "terms": ["지연", "응답시간", "응답속도", "몇초", "첫음성", "실시간성", "latency", "답변속도"],
+    "text": "팀의 기존 한국어 텍스트 벤치마크에서 Qwen3 4B와 하이브리드 검색은 8문항의 전체 응답 시간 중앙값이 3.48초였습니다. 음성이 처음 들릴 때까지의 시간은 이 측정에서 제외됐습니다."
+  },
+  "P-limits": {
+    "kind": "project",
+    "url": "https://github.com/GracieRho/yaicon-persona-avatar/blob/f21bc4ef08c55151e94f6f301d1072bac9338436/experiment/README.md",
+    "locator": "실행 결과 · reports, risk, lawyer",
+    "terms": ["한계", "한계점", "실패사례", "틀린답", "틀린사례", "오답", "환각", "할루시네이션"],
+    "text": "영어 파일럿에서 두 조건 모두 칩을 검증하지 않고 회사 전체를 걸어도 되느냐는 질문에 잘못 동의했습니다. 출처 표기가 맞아도 원래 발언과 결론이 어긋날 수 있습니다."
+  },
+  "T-rag": {
+    "kind": "technical",
+    "url": "https://papers.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+    "locator": "Lewis et al. (2020), Abstract",
+    "terms": ["rag", "검색증강", "외부문서검색", "검색증강생성"],
+    "text": "RAG는 질문과 관련된 외부 문서를 검색해 그 내용을 답변 생성에 활용하는 방식입니다."
+  },
+  "T-lora": {
+    "kind": "technical",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "locator": "Hu et al., Abstract",
+    "terms": ["lora", "로라", "저랭크", "저차원행렬"],
+    "text": "LoRA는 기존 모델의 가중치를 고정하고 작은 저랭크 행렬을 학습해 모델을 원하는 작업에 맞추는 방법입니다."
+  },
+  "T-think": {
+    "kind": "technical",
+    "url": "https://aclanthology.org/2026.acl-long.449/",
+    "locator": "Cai et al. (2026), Abstract and §3",
+    "terms": ["thinkpersona", "싱크페르소나", "페르소나그래프", "퍼소나그래프", "qra"],
+    "text": "ThinkPersona는 개인의 생애 사건과 관계, 가치관을 그래프로 연결합니다. 연구진은 그래프에서 질문·근거 추론·답변을 구성해 역할 수행 모델을 학습했습니다."
+  },
+  "T-factory": {
+    "kind": "technical",
+    "url": "https://blogs.nvidia.com/blog/computex-2025-jensen-huang/",
+    "locator": "COMPUTEX 2025 keynote report, 2025-05-18",
+    "terms": ["ai팩토리", "ai공장", "인공지능공장", "aifactory"],
+    "text": "NVIDIA는 2025년 COMPUTEX에서 AI 팩토리를 AI를 생산하는 컴퓨팅 인프라로 설명했습니다."
+  }
+}
