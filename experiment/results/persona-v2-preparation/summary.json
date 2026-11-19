@@ -1,0 +1,275 @@
+{
+  "cases": 29,
+  "correct_decisions": 29,
+  "persona_source_hits": 14,
+  "persona_cases": 14,
+  "generation_requests": 0,
+  "generation_mechanical_passes": 0,
+  "semantic_fidelity": null,
+  "live_latency": null,
+  "promote_to_team": false,
+  "details": [
+    {
+      "id": "P01",
+      "decision": "persona",
+      "sources": [
+        "S1"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 6.7682
+    },
+    {
+      "id": "P02",
+      "decision": "persona",
+      "sources": [
+        "S1"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 2.0502
+    },
+    {
+      "id": "P03",
+      "decision": "persona",
+      "sources": [
+        "S2"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 0.8508
+    },
+    {
+      "id": "P04",
+      "decision": "persona",
+      "sources": [
+        "S3"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 0.8216
+    },
+    {
+      "id": "P05",
+      "decision": "persona",
+      "sources": [
+        "L1"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 0.7461
+    },
+    {
+      "id": "P06",
+      "decision": "persona",
+      "sources": [
+        "L2"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 2.7265
+    },
+    {
+      "id": "P07",
+      "decision": "persona",
+      "sources": [
+        "A1",
+        "L1"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 0.852
+    },
+    {
+      "id": "P08",
+      "decision": "persona",
+      "sources": [
+        "A1"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 0.7444
+    },
+    {
+      "id": "P09",
+      "decision": "persona",
+      "sources": [
+        "A2"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 0.7446
+    },
+    {
+      "id": "P10",
+      "decision": "persona",
+      "sources": [
+        "H1"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 0.7357
+    },
+    {
+      "id": "P11",
+      "decision": "persona",
+      "sources": [
+        "C1"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 2.7614
+    },
+    {
+      "id": "P12",
+      "decision": "persona",
+      "sources": [
+        "A1",
+        "L1"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 0.673
+    },
+    {
+      "id": "P13",
+      "decision": "persona",
+      "sources": [
+        "S1"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 0.7049
+    },
+    {
+      "id": "P14",
+      "decision": "persona",
+      "sources": [
+        "S2"
+      ],
+      "decision_correct": true,
+      "expected_source_found": true,
+      "packet_ms": 1.8814
+    },
+    {
+      "id": "C01",
+      "decision": "unverified_private_claim",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.0182
+    },
+    {
+      "id": "C02",
+      "decision": "needs_current_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.0757
+    },
+    {
+      "id": "C03",
+      "decision": "needs_current_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.0801
+    },
+    {
+      "id": "C04",
+      "decision": "needs_current_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.1316
+    },
+    {
+      "id": "C05",
+      "decision": "unverified_private_claim",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.0473
+    },
+    {
+      "id": "C06",
+      "decision": "needs_current_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.0908
+    },
+    {
+      "id": "C07",
+      "decision": "needs_project_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.1325
+    },
+    {
+      "id": "C08",
+      "decision": "needs_project_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.2919
+    },
+    {
+      "id": "C09",
+      "decision": "insufficient_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.1837
+    },
+    {
+      "id": "C10",
+      "decision": "insufficient_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.1548
+    },
+    {
+      "id": "C11",
+      "decision": "insufficient_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 2.7457
+    },
+    {
+      "id": "C12",
+      "decision": "unverified_private_claim",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.071
+    },
+    {
+      "id": "C13",
+      "decision": "needs_current_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.0532
+    },
+    {
+      "id": "C14",
+      "decision": "needs_current_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.1013
+    },
+    {
+      "id": "C15",
+      "decision": "needs_current_evidence",
+      "sources": [],
+      "decision_correct": true,
+      "expected_source_found": null,
+      "packet_ms": 0.0476
+    }
+  ]
+}

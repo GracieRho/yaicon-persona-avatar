@@ -60,9 +60,9 @@ def route(question):
         raise ValueError("Question is empty")
     private = ("불륜", "사생활", "사적 대화", "비공개", "속마음", "affair", "private conversation",
                "secret meeting", "home address", "개인 전화", "집주소")
-    news = ("최신", "최근 뉴스", "이번 이슈", "오늘", "어제", "현황", "주가", "여론", "복귀", "섭외",
+    news = ("최신", "최근", "이번 이슈", "오늘", "어제", "현황", "주가", "여론", "복귀", "섭외", "지난주",
             "latest", "current", "today", "yesterday", "stock price", "return to office",
-            "return-to-office", "invitation", "rumor", "rumour")
+            "return-to-office", "invitation", "rumor", "rumour", "last week", "recent", "recently")
     project = ("yaicon", "our project", "your project", "this project", "your pipeline",
                "our pipeline", "우리 프로젝트", "너희 프로젝트", "이번 발표", "발표 내용", "이 프로젝트")
     if any(term_hit(q, t) for t in private):
@@ -88,6 +88,11 @@ class PersonaGraph:
                 raise ValueError(f"Incomplete anchor {tag}")
             if not item["url"].startswith("https://"):
                 raise ValueError("Source must have an HTTPS URL")
+        # Bind supplemental cards to the existing canonical event registry.
+        canonical = {s["url"]: s["source_event_id"] for s in read(ROOT.parent / "data/sources.json")}
+        for item in self.anchors.values():
+            if item["url"] in canonical and item["event_id"] != canonical[item["url"]]:
+                raise ValueError("Anchor event differs from source registry")
         for edge in self.edges:
             if edge["source"] not in self.anchors or edge["kind"] not in {"source_summary", "analyst_interpretation"}:
                 raise ValueError("Unanchored or untyped relation")
@@ -225,11 +230,12 @@ def run(out, base_url=None, model=None, max_tokens=256, cases_path=DATA / "cases
         by_id = {(r["id"], r["condition"]): r for r in rows}
         with (out / "blind-review.csv").open("w", newline="", encoding="utf-8-sig") as f:
             writer = csv.writer(f)
-            writer.writerow(["id", "question", "A", "B", "source_urls", "rubric", "support_A_1_5", "support_B_1_5", "transfer_A_1_5", "transfer_B_1_5", "critical_error_A", "critical_error_B", "preference", "reviewer"])
+            writer.writerow(["id", "question", "A", "B", "supplied_evidence", "rubric", "support_A_1_5", "support_B_1_5", "transfer_A_1_5", "transfer_B_1_5", "critical_error_A", "critical_error_B", "preference", "reviewer"])
             for q in cases:
                 order = ["flat", "graph"]; rng.shuffle(order); key[q["id"]] = order
-                urls = [graph.anchors[t]["url"] for t in q["expected_sources"]]
-                writer.writerow([q["id"], q["question"], *(by_id[q["id"],c].get("raw", "[REQUEST FAILED]") for c in order), " | ".join(urls), q["rubric"], *([""]*8)])
+                supplied = next(p["packet"] for p in prompts if p["id"] == q["id"])
+                evidence = json.dumps({"sources": supplied["sources"], "relations": supplied["relations"]}, ensure_ascii=False)
+                writer.writerow([q["id"], q["question"], *(by_id[q["id"],c].get("raw", "[REQUEST FAILED]") for c in order), evidence, q["rubric"], *([""]*8)])
         (out / "review-key.json").write_text(json.dumps(key, indent=2) + "\n")
     return summary
 

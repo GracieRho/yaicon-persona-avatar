@@ -161,6 +161,12 @@ def extract(video, vtt, out):
                 }
             )
         (stage / "receipt.json").write_text(json.dumps(receipt, indent=2) + "\n")
+        (stage / "provenance.json").write_text(json.dumps({
+            "event_id": spec["event"], "source_video_sha256": spec["video_sha256"],
+            "source_vtt_sha256": spec["vtt_sha256"], "recipe": "caption-cuts-v1",
+            "ffmpeg_version": subprocess.check_output(["ffmpeg", "-version"], text=True).splitlines()[0],
+            "receipt_sha256": digest(stage / "receipt.json"),
+        }, indent=2) + "\n")
         stage.rename(out)
 
 

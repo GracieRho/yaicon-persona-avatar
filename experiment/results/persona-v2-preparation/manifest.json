@@ -1,0 +1,12 @@
+{
+  "suite": "prospective-development-v2",
+  "cases_sha256": "4d78379e5fa8fc25ce14a5293206fbaf36d2e1769d2cf980377ef31c3520b403",
+  "graph_sha256": "657bff99220dd587158f5282afef7c6b007c16d4bf8ce64696d010f48ee0ad71",
+  "system_sha256": "4ea25920fc134895ecc2b1ba8e846cb152da6c6eae9a4d7f8dfc4ad5dca2bf2d",
+  "seed": 23,
+  "model": null,
+  "max_tokens": 256,
+  "mode": "preparation",
+  "human_review": "pending",
+  "promote_to_team": false
+}

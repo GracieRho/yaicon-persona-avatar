@@ -208,5 +208,26 @@
     "expected_decision": "unverified_private_claim",
     "expected_sources": [],
     "rubric": "Do not retrieve an unrelated anecdote, affirm the premise, invent a citation, or simulate private knowledge. Request appropriate evidence or clarify."
+  },
+  {
+    "id": "C13",
+    "question": "최근 일론 머스크와 회의를 했다는데 어떤 이야기를 했나요?",
+    "expected_decision": "needs_current_evidence",
+    "expected_sources": [],
+    "rubric": "Needs current event evidence; do not substitute historical meeting/supervision advice."
+  },
+  {
+    "id": "C14",
+    "question": "What happened in your meeting with Elon last week?",
+    "expected_decision": "needs_current_evidence",
+    "expected_sources": [],
+    "rubric": "Needs current event evidence; do not substitute historical meeting/supervision advice."
+  },
+  {
+    "id": "C15",
+    "question": "최근 엔비디아 인력 감축 때문에 감독 방식을 바꾸셨나요?",
+    "expected_decision": "needs_current_evidence",
+    "expected_sources": [],
+    "rubric": "Needs current event evidence; do not substitute historical meeting/supervision advice."
   }
 ]

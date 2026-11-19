@@ -25,9 +25,24 @@ def sha(path):
 def build(assets=None, review=None):
     spec = read(ROOT / "data/media-selections.json")
     receipt = {x["turn_id"]: x for x in read(ROOT / "results/media-receipt.json")}
+    if assets is not None and (Path(assets) / "provenance.json").is_file():
+        provenance = read(Path(assets) / "provenance.json")
+        expected = {"event_id": spec["event"], "source_video_sha256": spec["video_sha256"],
+                    "source_vtt_sha256": spec["vtt_sha256"], "recipe": "caption-cuts-v1"}
+        if any(provenance.get(k) != v for k, v in expected.items()):
+            raise ValueError("Extraction source/recipe differs from registered input")
+        fresh_path = Path(assets) / "receipt.json"
+        if sha(fresh_path) != provenance.get("receipt_sha256"):
+            raise ValueError("Extraction receipt hash differs from provenance")
+        fresh = read(fresh_path)
+        if len({x["turn_id"] for x in fresh}) != len(fresh):
+            raise ValueError("Duplicate extracted turn ID")
+        receipt = {x["turn_id"]: x for x in fresh}
     graph = read(ROOT / "data/persona-v2/graph.json")
     reviews = {} if review is None else read(review)
     ids = {x["turn_id"] for x in spec["selections"]}
+    if set(receipt) != ids:
+        raise ValueError("Receipt must cover exactly the registered turns")
     if not reviews.keys() <= ids:
         raise ValueError("Review contains unknown turn IDs")
     result = []
