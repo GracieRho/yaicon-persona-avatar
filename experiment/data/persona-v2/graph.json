@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "anchors": {
+    "C1": {
+      "evidence_id": "CAL-01",
+      "event_id": "caltech-commencement-2024",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-caltech-commencement-address/",
+      "locator": "졸업식 연설 결말의 교토 정원사 일화. 행사는 6월 14일, NVIDIA 기사는 6월 15일.",
+      "summary_en": "He described a Kyoto moss gardener as an example of patient care and craftsmanship in ordinary work.",
+      "summary_ko": "교토 이끼 정원에서 본 정원사의 일화로 자기 일에 정성을 기울이는 태도를 이야기했다.",
+      "terms": [
+        "교토",
+        "이끼",
+        "정원사",
+        "정성",
+        "장인정신",
+        "craftsmanship",
+        "gardener",
+        "patient care",
+        "polishing"
+      ]
+    },
+    "H1": {
+      "evidence_id": "LEX-01",
+      "event_id": "lex-494",
+      "url": "https://lexfridman.com/jensen-huang-transcript/",
+      "locator": "공개 전사의 02:15:55 Jensen Huang 구간. 직전 Lex의 짧은 응답과 화자 이름을 구별한다.",
+      "summary_en": "He highlighted compassion and generosity as human strengths in an era when intelligence becomes widely available.",
+      "summary_ko": "타인을 향한 연민과 관대함을 인간의 뛰어난 능력으로 꼽았다.",
+      "terms": [
+        "공감",
+        "연민",
+        "관대",
+        "동료가힘들",
+        "인간다움",
+        "인간성",
+        "품성",
+        "사람만의강점",
+        "사람에게남",
+        "compassion",
+        "generosity",
+        "empathy",
+        "kindness",
+        "distressed colleague"
+      ]
+    },
+    "S1": {
+      "evidence_id": "jensen-stripe-sessions-2024-01",
+      "event_id": "stripe-sessions-2024",
+      "url": "https://stripe.com/gb/sessions/2024/a-conversation-with-nvidias-jensen-huang",
+      "locator": "Stripe Sessions 2024, upbringing and early jobs, 09:55–10:37",
+      "summary_en": "He recalled cleaning at school and doing dishwashing and waiting-table jobs, wanting to do each job well.",
+      "summary_ko": "학교에서 청소하고 식당에서 설거지와 서빙을 했던 경험을 돌아보며, 각 일을 잘 해내고 싶었다고 설명했습니다.",
+      "terms": [
+        "식당",
+        "설거지",
+        "데니스",
+        "허드렛일",
+        "잡일",
+        "단순작업",
+        "단순반복",
+        "보조업무",
+        "데이터정리",
+        "자료정리",
+        "라벨링",
+        "눈에띄지",
+        "티가안",
+        "하찮",
+        "작은역할",
+        "작은일",
+        "사소한일",
+        "맡은일",
+        "알바",
+        "unnoticed",
+        "repetitive",
+        "cleaning",
+        "data labeling",
+        "data entry",
+        "dishwashing",
+        "small role",
+        "ordinary work",
+        "spreadsheet"
+      ]
+    },
+    "S2": {
+      "evidence_id": "jensen-stripe-sessions-2024-02",
+      "event_id": "stripe-sessions-2024",
+      "url": "https://stripe.com/gb/sessions/2024/a-conversation-with-nvidias-jensen-huang",
+      "locator": "Stripe Sessions 2024, supervision at different levels, 13:34–13:46",
+      "summary_en": "His unusually wide CEO reporting span relied on experienced executives needing less supervision; he did not prescribe the same structure for junior managers.",
+      "summary_ko": "CEO의 직속 보고자가 많았지만, 경영진과 실무자가 필요로 하는 지도가 달라 같은 구조를 아래 직급에 그대로 적용하기 어렵다고 했습니다.",
+      "terms": [
+        "직속",
+        "보고자",
+        "조직구조",
+        "60명",
+        "육십명",
+        "감독",
+        "신임팀장",
+        "신임관리자",
+        "관리범위",
+        "supervision",
+        "junior manager",
+        "direct reports",
+        "sixty reports",
+        "oversight"
+      ]
+    },
+    "S3": {
+      "evidence_id": "jensen-stripe-sessions-2024-03",
+      "event_id": "stripe-sessions-2024",
+      "url": "https://stripe.com/gb/sessions/2024/a-conversation-with-nvidias-jensen-huang",
+      "locator": "Stripe Sessions 2024, exchange on regular operational meetings",
+      "summary_en": "He left routine operational meetings to responsible colleagues and spent attention on difficult or unowned problems.",
+      "summary_ko": "일상적인 운영 회의는 담당자에게 맡기고 다른 사람이 풀기 어렵거나 맡는 사람이 없는 일에 시간을 쓴다고 했습니다.",
+      "terms": [
+        "정례회의",
+        "회의",
+        "우선순위",
+        "병목",
+        "주인없는",
+        "아무도맡지",
+        "아무도안맡",
+        "시간배분",
+        "일정관리",
+        "meeting",
+        "meetings",
+        "bottleneck",
+        "unowned",
+        "priorities",
+        "calendar"
+      ]
+    },
+    "L1": {
+      "evidence_id": "jensen-lex-494-02",
+      "event_id": "lex-494",
+      "url": "https://lexfridman.com/jensen-huang-transcript/",
+      "locator": "Lex Fridman #494, 00:16:45–00:17:59",
+      "summary_en": "He connected curiosity, reasoning about why a future could happen, conviction, and persistence through difficulty.",
+      "summary_ko": "호기심에서 출발해 어떤 미래가 왜 실현될지 따져 보고, 그 설명이 어려운 시기를 견디는 확신으로 이어진다고 말했습니다.",
+      "terms": [
+        "호기심",
+        "확신",
+        "끈기",
+        "막막",
+        "포기",
+        "버틸",
+        "버티",
+        "어려운결정",
+        "불확실한진로",
+        "실패가두려",
+        "curiosity",
+        "conviction",
+        "persist",
+        "uncertain career",
+        "give up"
+      ]
+    },
+    "L2": {
+      "evidence_id": "jensen-lex-494-04",
+      "event_id": "lex-494",
+      "url": "https://lexfridman.com/jensen-huang-transcript/",
+      "locator": "Lex Fridman #494, 02:03:43–02:04:36",
+      "summary_en": "He adjusted instruction detail to the task and recipient, while leaving room for colleagues to improve the approach.",
+      "summary_ko": "과제와 담당자에 따라 지시의 구체성을 조절한다고 설명했습니다. 실행할 방향을 제시하면서 더 나은 방법을 찾을 여지를 남긴다는 뜻입니다.",
+      "terms": [
+        "지시",
+        "명세",
+        "자율",
+        "역할분담",
+        "역할배분",
+        "위임",
+        "세세하게",
+        "세부사항",
+        "세부사항까지",
+        "delegation",
+        "delegate",
+        "instructions",
+        "autonomy",
+        "specification"
+      ]
+    },
+    "A1": {
+      "evidence_id": "jensen-acquired-2023-01",
+      "event_id": "acquired-2023",
+      "url": "https://www.acquired.fm/episodes/jensen-huang#transcript",
+      "locator": "Acquired (2023), RIVA 128 and the follow-up on betting the company",
+      "summary_en": "Before chip manufacture, the team used emulation to test software. He rejected characterizing the commitment as a blind bet. This example supports reducing testable uncertainty, not skipping validation.",
+      "summary_ko": "칩을 제조하기 전에 에뮬레이터에서 소프트웨어를 돌려 확인했던 경험을 들며, 그 결정을 맹목적인 베팅으로 설명하는 데 반대했습니다.",
+      "terms": [
+        "검증",
+        "테스트",
+        "전재산",
+        "올인",
+        "베팅",
+        "도박",
+        "위험",
+        "리스크",
+        "시제품",
+        "에뮬레",
+        "망하면",
+        "불확실성",
+        "리허설",
+        "risk",
+        "testing",
+        "test",
+        "validation",
+        "prototype",
+        "bet",
+        "rehearsal",
+        "emulation"
+      ]
+    },
+    "A2": {
+      "evidence_id": "jensen-acquired-2023-04",
+      "event_id": "acquired-2023",
+      "url": "https://www.acquired.fm/episodes/jensen-huang#transcript",
+      "locator": "Acquired (2023), closing question about starting over at age thirty",
+      "summary_en": "He reflected that knowing in advance how difficult building the company would be could have made him reluctant to start again.",
+      "summary_ko": "창업할 때는 회사를 키우는 일이 얼마나 어려울지 몰랐고, 미리 알았다면 다시 시작하기를 망설였을 것이라고 회고했습니다.",
+      "terms": [
+        "다시창업",
+        "재창업",
+        "다시회사를",
+        "창업을다시",
+        "다시시작",
+        "창업의어려움",
+        "start again",
+        "start over",
+        "founding",
+        "startup hardship"
+      ]
+    }
+  },
+  "edges": [
+    {
+      "source": "S1",
+      "head": "cleaning bathrooms at boarding school",
+      "relation": "illustrated",
+      "tail": "taking pride in an assigned job",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "S1",
+      "head": "washing dishes and later waiting tables",
+      "relation": "illustrated",
+      "tail": "taking pride in an assigned job",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "S1",
+      "head": "taking pride in an assigned job",
+      "relation": "meant",
+      "tail": "doing even ordinary work as well as one can",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "S2",
+      "head": "the CEO's unusually wide reporting span",
+      "relation": "was possible with",
+      "tail": "experienced executives needing less supervision",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "S2",
+      "head": "experienced executives needing less supervision",
+      "relation": "illustrated",
+      "tail": "matching oversight to the people doing the work",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "S3",
+      "head": "routine operating meetings",
+      "relation": "were left to",
+      "tail": "people already responsible for the work",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "S3",
+      "head": "the CEO's attention",
+      "relation": "was reserved for",
+      "tail": "a problem that others cannot solve or no one owns",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "L1",
+      "head": "curiosity about a possible future",
+      "relation": "prompted",
+      "tail": "reasoning through why that future should materialize",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "L1",
+      "head": "reasoning through why that future should materialize",
+      "relation": "helped build",
+      "tail": "conviction about a hard decision",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "L1",
+      "head": "conviction about a hard decision",
+      "relation": "helped sustain",
+      "tail": "persisting through the difficulty before an outcome",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "L2",
+      "head": "the detail in an instruction",
+      "relation": "depended on",
+      "tail": "the task and the person carrying it out",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "L2",
+      "head": "the detail in an instruction",
+      "relation": "aimed to give",
+      "tail": "enough direction to act and room for others to improve the plan",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "A1",
+      "head": "emulating a chip and testing its software before manufacture",
+      "relation": "was a way of",
+      "tail": "reducing uncertainty before committing the company",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "A1",
+      "head": "reducing uncertainty before committing the company",
+      "relation": "argued against describing the decision as",
+      "tail": "describing the commitment as a blind bet",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "A2",
+      "head": "the unexpected difficulty of building NVIDIA",
+      "relation": "explained",
+      "tail": "reluctance to start again with hindsight",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "C1",
+      "head": "watching a gardener tend a moss garden in Kyoto",
+      "relation": "illustrated",
+      "tail": "giving one's craft sustained care",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "H1",
+      "head": "the possibility that intelligence will become widely available",
+      "relation": "provided context for",
+      "tail": "valuing character and humanity",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "H1",
+      "head": "valuing character and humanity",
+      "relation": "included",
+      "tail": "compassion and generosity as human strengths",
+      "kind": "source_summary",
+      "qualifier": "Paraphrase of a cited historical account; not a universal rule or current event."
+    },
+    {
+      "source": "C1",
+      "head": "He described a Kyoto moss gardener as an example of patient care and craftsmanship in ordinary work.",
+      "relation": "may suggest the following principle",
+      "tail": "시간을 들여 자기 일의 완성도를 높인다는 관점",
+      "kind": "analyst_interpretation",
+      "qualifier": "Researcher interpretation; any application to a new question is hypothetical, not a new statement by Jensen."
+    },
+    {
+      "source": "H1",
+      "head": "He highlighted compassion and generosity as human strengths in an era when intelligence becomes widely available.",
+      "relation": "may suggest the following principle",
+      "tail": "지식과 지능 이외에 타인을 대하는 태도에서도 인간의 강점을 찾는 관점",
+      "kind": "analyst_interpretation",
+      "qualifier": "Researcher interpretation; any application to a new question is hypothetical, not a new statement by Jensen."
+    },
+    {
+      "source": "S1",
+      "head": "He recalled cleaning at school and doing dishwashing and waiting-table jobs, wanting to do each job well.",
+      "relation": "may suggest the following principle",
+      "tail": "일의 규모나 겉으로 드러나는 정도와 관계없이 맡은 일의 완성도를 높인다는 관점",
+      "kind": "analyst_interpretation",
+      "qualifier": "Researcher interpretation; any application to a new question is hypothetical, not a new statement by Jensen."
+    },
+    {
+      "source": "S2",
+      "head": "His unusually wide CEO reporting span relied on experienced executives needing less supervision; he did not prescribe the same structure for junior managers.",
+      "relation": "may suggest the following principle",
+      "tail": "인원수를 먼저 정하기보다 구성원에게 필요한 지원의 정도를 살핀다는 관점",
+      "kind": "analyst_interpretation",
+      "qualifier": "Researcher interpretation; any application to a new question is hypothetical, not a new statement by Jensen."
+    },
+    {
+      "source": "S3",
+      "head": "He left routine operational meetings to responsible colleagues and spent attention on difficult or unowned problems.",
+      "relation": "may suggest the following principle",
+      "tail": "책임자가 직접 나설 때 달라질 문제에 시간을 쓴다는 관점",
+      "kind": "analyst_interpretation",
+      "qualifier": "Researcher interpretation; any application to a new question is hypothetical, not a new statement by Jensen."
+    },
+    {
+      "source": "L1",
+      "head": "He connected curiosity, reasoning about why a future could happen, conviction, and persistence through difficulty.",
+      "relation": "may suggest the following principle",
+      "tail": "막연한 낙관보다 납득할 수 있는 이유에서 확신을 얻는다는 관점",
+      "kind": "analyst_interpretation",
+      "qualifier": "Researcher interpretation; any application to a new question is hypothetical, not a new statement by Jensen."
+    },
+    {
+      "source": "L2",
+      "head": "He adjusted instruction detail to the task and recipient, while leaving room for colleagues to improve the approach.",
+      "relation": "may suggest the following principle",
+      "tail": "목표를 실행할 만큼 구체화하면서 방법을 개선할 여지는 남긴다는 관점",
+      "kind": "analyst_interpretation",
+      "qualifier": "Researcher interpretation; any application to a new question is hypothetical, not a new statement by Jensen."
+    },
+    {
+      "source": "A1",
+      "head": "Before chip manufacture, the team used emulation to test software. He rejected characterizing the commitment as a blind bet. This example supports reducing testable uncertainty, not skipping validation.",
+      "relation": "may suggest the following principle",
+      "tail": "되돌리기 어려운 결정에 앞서 미리 시험할 수 있는 위험을 줄인다는 관점",
+      "kind": "analyst_interpretation",
+      "qualifier": "Researcher interpretation; any application to a new question is hypothetical, not a new statement by Jensen."
+    },
+    {
+      "source": "A2",
+      "head": "He reflected that knowing in advance how difficult building the company would be could have made him reluctant to start again.",
+      "relation": "may suggest the following principle",
+      "tail": "성공 후의 회고에도 당시에는 알 수 없었던 비용과 어려움을 포함한다는 관점",
+      "kind": "analyst_interpretation",
+      "qualifier": "Researcher interpretation; any application to a new question is hypothetical, not a new statement by Jensen."
+    }
+  ]
+}
